@@ -1,0 +1,15 @@
+D:\1 - MNS\C#\PokemonLike\PokemonLike\bin\Debug\net6.0\PokemonLike.exe
+D:\1 - MNS\C#\PokemonLike\PokemonLike\bin\Debug\net6.0\PokemonLike.deps.json
+D:\1 - MNS\C#\PokemonLike\PokemonLike\bin\Debug\net6.0\PokemonLike.runtimeconfig.json
+D:\1 - MNS\C#\PokemonLike\PokemonLike\bin\Debug\net6.0\PokemonLike.dll
+D:\1 - MNS\C#\PokemonLike\PokemonLike\bin\Debug\net6.0\PokemonLike.pdb
+D:\1 - MNS\C#\PokemonLike\PokemonLike\obj\Debug\net6.0\PokemonLike.csproj.AssemblyReference.cache
+D:\1 - MNS\C#\PokemonLike\PokemonLike\obj\Debug\net6.0\PokemonLike.GeneratedMSBuildEditorConfig.editorconfig
+D:\1 - MNS\C#\PokemonLike\PokemonLike\obj\Debug\net6.0\PokemonLike.AssemblyInfoInputs.cache
+D:\1 - MNS\C#\PokemonLike\PokemonLike\obj\Debug\net6.0\PokemonLike.AssemblyInfo.cs
+D:\1 - MNS\C#\PokemonLike\PokemonLike\obj\Debug\net6.0\PokemonLike.csproj.CoreCompileInputs.cache
+D:\1 - MNS\C#\PokemonLike\PokemonLike\obj\Debug\net6.0\PokemonLike.dll
+D:\1 - MNS\C#\PokemonLike\PokemonLike\obj\Debug\net6.0\refint\PokemonLike.dll
+D:\1 - MNS\C#\PokemonLike\PokemonLike\obj\Debug\net6.0\PokemonLike.pdb
+D:\1 - MNS\C#\PokemonLike\PokemonLike\obj\Debug\net6.0\PokemonLike.genruntimeconfig.cache
+D:\1 - MNS\C#\PokemonLike\PokemonLike\obj\Debug\net6.0\ref\PokemonLike.dll
