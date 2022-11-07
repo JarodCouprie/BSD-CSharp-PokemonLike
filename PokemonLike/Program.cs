@@ -90,7 +90,7 @@ namespace PokemonLike
                             {
                                 wildPokemon = new WildPokemon();//Create a new wild pokemon to fight when the previous one is beaten
                             }
-                            Console.WriteLine("Fight against a wild " + wildPokemon.Name +"\n\nYou can choose between 3 actions :\n[1] - FIGHT " + wildPokemon.Name + "\n[2] - Use a potion and heal " + pokemonChosen.Name + "\n[3] - RUN");
+                            Console.WriteLine("Fight against a wild " + wildPokemon.Name +"\n\nYou can choose between 4 actions :\n[1] - FIGHT " + wildPokemon.Name + "\n[2] - Use a potion and heal " + pokemonChosen.Name + "\n[3] - Catch "+ wildPokemon.Name+"\n[4] - RUN");
                             switch (Console.ReadLine())//Allow the player to chose options in the fightingh sequence
                             {
                                 case "1" or "[1]"://Fight phase - the pokemon's speed grants the first strike on the other one
@@ -130,6 +130,73 @@ namespace PokemonLike
                                     Console.Clear();
                                     pokemonChosen.Potion();//The player's pokemon can be healed in combat but can't fight 
                                     pokemonChosen.TakingDamages(wildPokemon.Attack);//The wild pokemon fight while the player's pokemon is healed
+                                    break;
+                                case "3" or "[3]":
+                                    if (wildPokemon.CurrentHealthPoints >= (wildPokemon.MaxHealthPoints/1.25))
+                                    {
+                                        if (random.Next(0, 100) > 80)
+                                        {
+                                            Console.WriteLine("Congratulations !You caught "+wildPokemon.Name);
+                                            fight = false;
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("You failed to catch "+wildPokemon.Name);
+                                            pokemonChosen.TakingDamages(wildPokemon.Attack);
+                                        }
+                                    }
+                                    else if (wildPokemon.CurrentHealthPoints >= (wildPokemon.MaxHealthPoints/2))
+                                    {
+                                        if (random.Next(0, 100) > 50)
+                                        {
+                                            Console.WriteLine("Congratulations !You caught "+wildPokemon.Name);
+                                            fight = false;
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("You failed to catch "+wildPokemon.Name);
+                                            pokemonChosen.TakingDamages(wildPokemon.Attack);
+                                        }
+                                    }
+                                    else if (wildPokemon.CurrentHealthPoints >= (wildPokemon.MaxHealthPoints/4))
+                                    {
+                                        if (random.Next(0, 100) > 25)
+                                        {
+                                            Console.WriteLine("Congratulations !You caught "+wildPokemon.Name);
+                                            fight = false;
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("You failed to catch "+wildPokemon.Name);
+                                            pokemonChosen.TakingDamages(wildPokemon.Attack);
+                                        }
+                                    }
+                                    else if (wildPokemon.CurrentHealthPoints >= (wildPokemon.MaxHealthPoints/10))
+                                    {
+                                        if (random.Next(0, 100) > 10)
+                                        {
+                                            Console.WriteLine("Congratulations !You caught "+wildPokemon.Name);
+                                            fight = false;
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("You failed to catch "+wildPokemon.Name);
+                                            pokemonChosen.TakingDamages(wildPokemon.Attack);
+                                        }
+                                    }
+                                    else
+                                    {
+                                        if (random.Next(0, 100) > 2)
+                                        {
+                                            Console.WriteLine("Congratulations !You caught "+wildPokemon.Name);
+                                            fight = false;
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("You failed to catch "+wildPokemon.Name);
+                                            pokemonChosen.TakingDamages(wildPokemon.Attack);
+                                        }
+                                    }
                                     break;
                                 default://If the player don't want to fight, use a potion or just wants to run
                                     Console.Clear();

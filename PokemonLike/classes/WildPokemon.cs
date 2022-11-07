@@ -18,8 +18,8 @@ namespace PokemonLike.classes
         {
             Random random = new();//Allowing random stats for the wild pokemon iteration
             Name = RandomNames[random.Next(0, 14)];//Choosing a name from the array for the wild pokemon
-            CurrentHealthPoints = random.Next(70, 100);
-            MaxHealthPoints = CurrentHealthPoints;
+            MaxHealthPoints = random.Next(70, 100);
+            CurrentHealthPoints = MaxHealthPoints;
             Attack = random.Next(20, 40);
             Defense = random.Next(8, 18);
             Speed = random.Next(8, 26);

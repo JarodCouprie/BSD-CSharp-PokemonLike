@@ -13,3 +13,18 @@ D:\1 - MNS\C#\PokemonLike\PokemonLike\obj\Debug\net6.0\refint\PokemonLike.dll
 D:\1 - MNS\C#\PokemonLike\PokemonLike\obj\Debug\net6.0\PokemonLike.pdb
 D:\1 - MNS\C#\PokemonLike\PokemonLike\obj\Debug\net6.0\PokemonLike.genruntimeconfig.cache
 D:\1 - MNS\C#\PokemonLike\PokemonLike\obj\Debug\net6.0\ref\PokemonLike.dll
+C:\Users\jarod\Desktop\C#\Exercices\PokemonLike\PokemonLike\bin\Debug\net6.0\PokemonLike.exe
+C:\Users\jarod\Desktop\C#\Exercices\PokemonLike\PokemonLike\bin\Debug\net6.0\PokemonLike.deps.json
+C:\Users\jarod\Desktop\C#\Exercices\PokemonLike\PokemonLike\bin\Debug\net6.0\PokemonLike.runtimeconfig.json
+C:\Users\jarod\Desktop\C#\Exercices\PokemonLike\PokemonLike\bin\Debug\net6.0\PokemonLike.dll
+C:\Users\jarod\Desktop\C#\Exercices\PokemonLike\PokemonLike\bin\Debug\net6.0\PokemonLike.pdb
+C:\Users\jarod\Desktop\C#\Exercices\PokemonLike\PokemonLike\obj\Debug\net6.0\PokemonLike.csproj.AssemblyReference.cache
+C:\Users\jarod\Desktop\C#\Exercices\PokemonLike\PokemonLike\obj\Debug\net6.0\PokemonLike.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jarod\Desktop\C#\Exercices\PokemonLike\PokemonLike\obj\Debug\net6.0\PokemonLike.AssemblyInfoInputs.cache
+C:\Users\jarod\Desktop\C#\Exercices\PokemonLike\PokemonLike\obj\Debug\net6.0\PokemonLike.AssemblyInfo.cs
+C:\Users\jarod\Desktop\C#\Exercices\PokemonLike\PokemonLike\obj\Debug\net6.0\PokemonLike.csproj.CoreCompileInputs.cache
+C:\Users\jarod\Desktop\C#\Exercices\PokemonLike\PokemonLike\obj\Debug\net6.0\PokemonLike.dll
+C:\Users\jarod\Desktop\C#\Exercices\PokemonLike\PokemonLike\obj\Debug\net6.0\refint\PokemonLike.dll
+C:\Users\jarod\Desktop\C#\Exercices\PokemonLike\PokemonLike\obj\Debug\net6.0\PokemonLike.pdb
+C:\Users\jarod\Desktop\C#\Exercices\PokemonLike\PokemonLike\obj\Debug\net6.0\PokemonLike.genruntimeconfig.cache
+C:\Users\jarod\Desktop\C#\Exercices\PokemonLike\PokemonLike\obj\Debug\net6.0\ref\PokemonLike.dll
